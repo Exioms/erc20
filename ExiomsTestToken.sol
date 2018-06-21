@@ -150,7 +150,7 @@ contract Owned {
 
 // ----------------------------------------------------------------------------
 
-contract ADDOTestToken is ERC20Interface, Owned {
+contract ExiomsTestToken is ERC20Interface, Owned {
 
     using SafeMath for uint;
 
@@ -176,7 +176,7 @@ contract ADDOTestToken is ERC20Interface, Owned {
 
     // ------------------------------------------------------------------------
 
-    function ADDOTestToken() public {
+    function ExiomsTestToken() public {
 
         symbol = "Token Symbol";
 
